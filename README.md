@@ -1,4 +1,4 @@
-结合eraycc和ivesyi对原项目的修改
+# 结合eraycc和ivesyi对原项目的修改
 
 仅能代理访问github，实现github主页+搜索+详情+下载
 
@@ -6,6 +6,7 @@
 
 给一个加了密码的代理连接上了跨域请求
 
+# 声明
 
 本人完全没有JavaScript基础
 
@@ -20,7 +21,7 @@ html ability powered by Newbing
 Network ability powered by cloudflare doc
 
 
-具体实现：
+# 具体实现：
 
 魔改了ivesyi对于响应的正则
 
