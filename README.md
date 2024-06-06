@@ -1,3 +1,19 @@
+结合eraycc和ivesyi对原项目的修改
+仅能代理访问github，实现github主页+搜索+详情+下载
+(怂的不会干任何违法的事，但实际上由于url写死了不会改。鬼知道跳转连接就给了个search?=xxx我怎么知道该跳到哪里去）
+给一个加了密码的代理连接上了跨域请求
+
+本人完全没有JavaScript基础
+code ability powered by cpp
+urllib ability powered by python
+javascript ability powered by English
+html ability powered by Newbing
+Network ability powered by cloudflare doc
+
+具体实现：
+魔改了ivesyi对于响应的正则
+魔改了eraycc对于fixurl的判断
+魔改了原项目的输入地址界面，使其直接跳转github.com
 # cloudflare-reverse-proxy
 
 本项目是cloudflare反向代理。在cloudflare网站中新建worker，把worker.js文件中的内容复制进去即可使用。
@@ -45,3 +61,8 @@
 所以使用的时候只需要设置一下openai.api_base="https://你的域名/proxy/https://api.openai.com/v1" 就可以了
 
 更多使用方法也可以参考https://github.com/gaboolic/vercel-reverse-proxy 
+# 基于以下修改
+密码：[](https://github.com/eraycc/cloudflare-safeproxy)
+跳转：[](https://github.com/ivesyi/cf-worker-proxy)
+原项目：[](https://github.com/gaboolic/cloudflare-reverse-proxy)
+
