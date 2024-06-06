@@ -77,7 +77,6 @@ Network ability powered by cloudflare doc
 
 更多使用方法也可以参考https://github.com/gaboolic/vercel-reverse-proxy 
 # 基于以下修改
-密码：[](https://github.com/eraycc/cloudflare-safeproxy)
-跳转：[](https://github.com/ivesyi/cf-worker-proxy)
-原项目：[](https://github.com/gaboolic/cloudflare-reverse-proxy)
-
+密码：https://github.com/eraycc/cloudflare-safeproxy
+跳转：https://github.com/ivesyi/cf-worker-proxy
+原项目：https://github.com/gaboolic/cloudflare-reverse-proxy
