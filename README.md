@@ -20,6 +20,7 @@ html ability powered by Newbing
 
 Network ability powered by cloudflare doc
 
+于是根本不知道这个项目会有什么漏洞,第一设了密码，第二网址不要告诉别人，第三反正部署在cloudflare上面
 
 # 具体实现：
 
