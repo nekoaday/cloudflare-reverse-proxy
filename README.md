@@ -24,11 +24,12 @@ Network ability powered by cloudflare doc
 # 具体实现：
 
 魔改了ivesyi对于响应的正则
+![](https://raw.githubusercontent.com/nekoaday/cloudflare-reverse-proxy/main/img/%E6%AD%A3%E5%88%99.png)
 
 魔改了eraycc对于fixurl的判断
-
+![](https://raw.githubusercontent.com/nekoaday/cloudflare-reverse-proxy/main/img/url.png)
 魔改了原项目的输入地址界面，使其直接跳转github.com
-
+![](https://raw.githubusercontent.com/nekoaday/cloudflare-reverse-proxy/main/img/%E8%B7%B3%E8%BD%AC%E9%A1%B5%E9%9D%A2.png)
 # cloudflare-reverse-proxy
 
 本项目是cloudflare反向代理。在cloudflare网站中新建worker，把worker.js文件中的内容复制进去即可使用。
